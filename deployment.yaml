@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: mynginx
+  name: test
 spec:
   replicas: 3
   selector:
     matchLabels:
-      run: mynginx
+      run: test
   template:
     metadata:
       labels:
-        run: mynginx
+        run: test
     spec:
       containers:
       - image: test
