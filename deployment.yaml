@@ -13,7 +13,7 @@ spec:
         run: test
     spec:
       containers:
-      - image: test
-        name: syjsmk/test
+      - image: syjsmk/test
+        name: test
         ports:
         - containerPort: 8081
