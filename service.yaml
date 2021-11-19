@@ -7,6 +7,6 @@ spec:
   - port: 8081
     protocol: TCP
     targetPort: 8081
-    name: default-http
+    name: http-default
   selector:
     run: test
