@@ -21,4 +21,4 @@ spec:
       - image: syjsmk/test
         name: test
         ports:
-        - containerPort: 9999
+        - containerPort: 8081
