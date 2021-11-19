@@ -14,6 +14,6 @@ spec:
           servicePort: 8081
       - path: /log
         backend:
-          serviceName: test2
+          serviceName: test
           servicePort: 8081
 ---
