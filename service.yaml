@@ -4,9 +4,9 @@ metadata:
   name: test
 spec:
   ports:
-  - port: 8081
+  - port: 9999
     protocol: TCP
-    targetPort: 8081
+    targetPort: 9999
     name: http-default
   selector:
     run: test
