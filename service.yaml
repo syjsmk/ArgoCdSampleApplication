@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: test
+  name: test-application
 spec:
   ports:
   - port: 8081
@@ -9,4 +9,4 @@ spec:
     targetPort: 8081
     name: http-default
   selector:
-    run: test
+    run: test-application

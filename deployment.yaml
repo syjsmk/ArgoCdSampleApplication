@@ -1,24 +1,24 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: test
+  name: test-application
   labels:
-    app: test
+    app: test-application
     version: v1
 spec:
   replicas: 3
   selector:
     matchLabels:
-      run: test
+      run: test-application
   template:
     metadata:
       labels:
-        run: test
-        app: test
+        run: test-application
+        app: test-application
         version: v1
     spec:
       containers:
       - image: syjsmk/test
-        name: test
+        name: test-application
         ports:
         - containerPort: 8081
